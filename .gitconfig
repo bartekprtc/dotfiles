@@ -1,0 +1,7 @@
+[user]
+	name = Bartek Jaszczak
+	email = bartlomiej.jaszczak@proton.me
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
