@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Fzf configuration
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
+# Custom aliases
+alias ll='ls -al'
+
+# Default editor
+export VISUAL=nvim
+export EDITOR=nvim
