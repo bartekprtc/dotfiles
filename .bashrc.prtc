@@ -6,6 +6,7 @@ source /usr/share/fzf/completion.bash
 
 # Custom aliases
 alias ll='ls -al'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 # Default editor
 export VISUAL=nvim
