@@ -67,7 +67,7 @@ return require("packer").startup(function(use)
     -- statusline, tabline
     use({
         "nvim-lualine/lualine.nvim",
-        requires = { "nvim-tree/nvim-web-devicons", opt = true },
+        requires = { "nvim-tree/nvim-web-devicons" },
     })
     use({
         "utilyre/barbecue.nvim",
