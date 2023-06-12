@@ -1,4 +1,11 @@
 require("window-picker").setup({
+    hint = "floating-big-letter",
+    picker_config = {
+        floating_big_letter = {
+            font = 'ansi-shadow',
+        },
+    },
+
     autoselect_one = true,
     include_current = false,
     filter_rules = {
@@ -12,6 +19,7 @@ require("window-picker").setup({
         },
     },
     other_win_hl_color = "#e35e4f",
+    selection_chars = "TNSERIAO", -- for colemak
 })
 
 -- Unless you are still migrating, remove the deprecated commands from v1.x
