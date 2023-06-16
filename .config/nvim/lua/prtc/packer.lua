@@ -139,4 +139,7 @@ return require("packer").startup(function(use)
 
     -- move lines/blocks
     use("booperlv/nvim-gomove")
+
+    -- latex
+    use("lervag/vimtex")
 end)

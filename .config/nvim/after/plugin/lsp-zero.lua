@@ -9,6 +9,8 @@ local lspconfig = require("lspconfig")
 
 lspconfig.lua_ls.setup(lsp.nvim_lua_ls())
 
+lspconfig.texlab.setup{}
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities.offsetEncoding = { "utf-16" }
 
