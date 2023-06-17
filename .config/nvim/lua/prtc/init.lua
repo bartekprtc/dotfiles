@@ -1,3 +1,3 @@
-require("prtc.remap")
-require("prtc.packer")
 require("prtc.set")
+require("prtc.remap")
+require("prtc.lazy")
