@@ -3,6 +3,20 @@ return {
     -- optional for icon support
     dependencies = { "nvim-tree/nvim-web-devicons" },
 
+    lazy = true,
+    keys = {
+        "<leader>e",
+        "<leader>ff",
+        "<leader>fr",
+        "<leader>fg",
+        "<leader>fs",
+        "<leader>fS",
+        "<leader>fl",
+        "<leader>fL",
+        "<leader>fw",
+        "<leader>fW",
+    },
+
     config = function()
         vim.keymap.set(
             "n",

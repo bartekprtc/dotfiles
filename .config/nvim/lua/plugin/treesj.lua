@@ -1,6 +1,8 @@
 return {
     "Wansmer/treesj",
+
     keys = { "<leader>bt", "<leader>bj", "<leader>bs" },
+
     dependencies = { "nvim-treesitter/nvim-treesitter" },
 
     config = function()

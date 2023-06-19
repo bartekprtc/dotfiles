@@ -1,6 +1,9 @@
 return {
     "danymat/neogen",
 
+    cmd = { "Neogen" },
+    keys = { "<leader>cd" },
+
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     config = function()
         require("neogen").setup({ snippet_engine = "luasnip" })

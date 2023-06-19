@@ -1,5 +1,6 @@
 return {
     "vonheikemen/lsp-zero.nvim",
+
     branch = "v2.x",
     dependencies = {
         -- lsp support
