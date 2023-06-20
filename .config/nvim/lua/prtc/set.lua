@@ -34,3 +34,5 @@ vim.opt.backspace = "indent,eol,start"
 
 -- Enabling than will treat '-' as part of a word and select it accordingly
 -- vim.iskeyword:append("-")
+
+vim.lsp.set_log_level("off")
