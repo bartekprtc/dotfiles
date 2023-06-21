@@ -49,7 +49,7 @@ return {
             on_attach = function(client, bufnr)
                 local opts = { buffer = bufnr, remap = false }
 
-                vim.keymap.set("n", "<F10>", "<cmd>ClangdSwitchSourceHeader<CR>", opts)
+                vim.keymap.set("n", "<F8>", "<cmd>ClangdSwitchSourceHeader<CR>", opts)
             end,
             cmd = {
                 "clangd",
