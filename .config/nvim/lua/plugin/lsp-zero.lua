@@ -32,6 +32,7 @@ return {
 
         lsp.on_attach(function(client, bufnr)
             lsp.default_keymaps({ buffer = bufnr })
+            require("lsp_signature").on_attach()
         end)
 
         local lspconfig = require("lspconfig")
